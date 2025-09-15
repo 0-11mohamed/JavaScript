@@ -1,6 +1,8 @@
 //console.log("Hello World");
 
 function print(line) {
-    var text = element.textContent;
-    element.textContent = "Hello World";
+    var text = document.getElementById("text");
+    text.textContent = line;
 }
+
+print("Hello World");
