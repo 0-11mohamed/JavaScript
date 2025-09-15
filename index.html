@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-
 <html lang="fr">
 
-    <head>
-        <title>Je suis un onglet</title>
-        <meta charset="utf-8">
-    </head>
+<head>
+    <title>Salut mon pote</title>
+    <meta charset="utf-8">
+</head>
 
-    <body>
-        <h1 id="text"></h1>
+<body>
+    <h1>La température est de <span id="text"></span></h1>
 
-        <script src="script.js"></script>
-    </body>
+    <script>
+        let celsius = 37;
+        let fahrenheit = celsius * 9 / 5 + 32;
+
+        document.getElementById("text").textContent = celsius + "°C (" + fahrenheit + "°F)";
+    </script>
+</body>
 
 </html>
