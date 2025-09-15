@@ -1,6 +1,6 @@
-console.log("Hello World");
+//console.log("Hello World");
 
 function print(line) {
-    alert("Hello World");
+    var text = element.textContent;
+    element.textContent = "Hello World";
 }
-
