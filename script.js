@@ -28,3 +28,19 @@ const HT = 20;
 const TVA = 0.2;
 const TTC = HT + HT * TVA;
 document.getElementById("text4").textContent = "Montant HT : " + HT + "€, montant de la TVA : " + (HT * TVA) + "€, montant TTC : " + TTC + "€";
+
+// Exercice 5 : Oui c'est true
+
+// Exercice 6
+let poids = 70;
+let taille = 175;
+document.getElementById("text6").textContent = "Votre IMC est de " + Math.round(poids / (taille/100*taille/100));
+
+//Exercice 7
+const montant_min = 5;
+let montant_total = 7;
+montant_total >= montant_min ? document.getElementById("text7").textContent = "Livraison gratuite !" : document.getElementById("text7").textContent = "Frais de livraison : X euros";
+
+//Exercice 8
+let nombre = "1000011";
+document.getElementById("text8").textContent = "En binaire : " + nombre + ", en décimale : " + parseInt(nombre,2);
