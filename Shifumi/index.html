@@ -11,18 +11,17 @@
 <body>
     <p id="titre">SHIFUMI</p>
 
-    <div class ="game_button">
-        <button><img src="assets/rock.png"/></button>
-        <button><img src="assets/hand.png"/></button>
-        <button><img src="assets/scissors.png"/></button>
+    <div class="game_button">
+        <button class="btn_jeu" id="pierre"><img src="assets/pierre.png"/></button>
+        <button class="btn_jeu" id="feuille"><img src="assets/feuille.png"/></button>
+        <button class="btn_jeu" id="ciseaux"><img src="assets/ciseaux.png"/></button>
     </div>
 
-    <div class="option_button">
-        <button>Rejouer</button>
-        <button>Historique</button>
-    </div>
+    <button id="score">Score</button>
 
-    <script src="script.js"></script>
+    <img id="img_result"></img>
+
+    <script src="game.js"></script>
 </body>
 
 </html>
